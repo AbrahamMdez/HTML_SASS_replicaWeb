@@ -4,7 +4,7 @@ $color-message: rgb(41, 41, 189);
 $color-buttons: rgb(175, 87, 15);
 $color-icons: rgb(172, 12, 12);
 $color-text: white;
-$text-decoration-none: none;
+$none: none;
 
 $background-image: url("../img/background_image_edited.png");
 
@@ -41,10 +41,15 @@ header {
         justify-content: flex-end;
     }
 
-    a {
+    li {
         margin: 5px;
         color: $color-text;
-        text-decoration: $text-decoration-none;
+        list-style: $none;
+    }
+
+    a {
+        text-decoration: $none;
+        color: $color-text;
     }
 
     .title-header{

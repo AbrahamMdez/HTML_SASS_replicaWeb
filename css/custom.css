@@ -43,10 +43,15 @@ header .listas {
           justify-content: flex-end;
 }
 
-header a {
+header li {
   margin: 5px;
   color: white;
+  list-style: none;
+}
+
+header a {
   text-decoration: none;
+  color: white;
 }
 
 header .title-header {
