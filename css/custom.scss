@@ -18,14 +18,19 @@ header {
     
     height: 400px;
     background-image: $background-image;
+    padding-top: 2rem;
 
     .div-header {
         display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 5rem;
+        border-bottom: 1px solid grey;
     }
 
     .img-logo {
-        margin-left: 2rem;
-        margin-top: 3rem;
         width: 150px;
         height: 15px;
     }
@@ -41,10 +46,13 @@ header {
         color: $color-text;
     }
 
-    .title-header {
-        
+    .title-header{
+        color: $color-text;
+        margin-left: 4rem;
     }
 
 }
+
+
 
 

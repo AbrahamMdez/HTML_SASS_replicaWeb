@@ -9,17 +9,24 @@
 header {
   height: 400px;
   background-image: url("../img/background_image_edited.png");
+  padding-top: 2rem;
 }
 
 header .div-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 5rem;
+  border-bottom: 1px solid grey;
 }
 
 header .img-logo {
-  margin-left: 2rem;
-  margin-top: 3rem;
   width: 150px;
   height: 15px;
 }
@@ -40,5 +47,10 @@ header .listas {
 header li {
   margin: 5px;
   color: white;
+}
+
+header .title-header {
+  color: white;
+  margin-left: 4rem;
 }
 /*# sourceMappingURL=custom.css.map */
