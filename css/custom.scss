@@ -16,7 +16,7 @@ $background-image: url("../img/background_image_edited.png");
 
 header {
     
-    height: 400px;
+    height: 50vh;
     background-image: $background-image;
     padding-top: 2rem;
 
@@ -57,6 +57,20 @@ header {
         margin-left: 4rem;
     }
 
+}
+
+.div-results {
+    padding-top: 1.5rem;
+    text-align: center;
+    height: 10vh;
+    background-color: lightgrey;
+
+    h4 {
+        display: inline-block;
+        text-align: center;
+        margin-right: 1rem;
+    }
+    
 }
 
 

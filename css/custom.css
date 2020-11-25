@@ -6,7 +6,7 @@
 }
 
 header {
-  height: 400px;
+  height: 50vh;
   background-image: url("../img/background_image_edited.png");
   padding-top: 2rem;
 }
@@ -57,5 +57,18 @@ header a {
 header .title-header {
   color: white;
   margin-left: 4rem;
+}
+
+.div-results {
+  padding-top: 1.5rem;
+  text-align: center;
+  height: 10vh;
+  background-color: lightgrey;
+}
+
+.div-results h4 {
+  display: inline-block;
+  text-align: center;
+  margin-right: 1rem;
 }
 /*# sourceMappingURL=custom.css.map */
