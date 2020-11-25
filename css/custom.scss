@@ -101,12 +101,49 @@ main {
         margin-top: 0.5rem;
     }
 
-    .div-clients {
+    .div-contenedor-clients {
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5rem;
+
+
+
+            .div-clients {
+
+                margin-top: 5rem;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid $grey;
+                width: 25rem;
+                padding: 20px;
+            }
+        
+
+            .div-clients-caja {
+
+                h3 {
+                    text-align: center;
+                }
+
+                img {
+                    width: 1rem;
+                }
+
+                p {
+                    display: inline-block;
+                }
+
+            }
+
+            .titulo-clients {
+                display: block;
+            }
 
     }
-
-    
 }
+   
+
 
 footer {
     background-color: $light-grey;
