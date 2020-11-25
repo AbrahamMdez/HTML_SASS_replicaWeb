@@ -7,6 +7,7 @@
 }
 
 header {
+  height: 400px;
   background-image: url("../img/background_image_edited.png");
 }
 
@@ -20,6 +21,8 @@ header .div-header {
 }
 
 header .img-logo {
+  margin-left: 2rem;
+  margin-top: 3rem;
   width: 150px;
   height: 15px;
 }
@@ -39,5 +42,6 @@ header .listas {
 
 header li {
   margin: 5px;
+  color: white;
 }
 /*# sourceMappingURL=custom.css.map */

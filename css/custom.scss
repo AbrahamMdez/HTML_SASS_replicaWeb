@@ -3,6 +3,7 @@ $font-stack: "Avenir", "Open Sans";
 $color-message: rgb(41, 41, 189);
 $color-buttons: rgb(175, 87, 15);
 $color-icons: rgb(172, 12, 12);
+$color-text: white;
 
 $background-image: url("../img/background_image_edited.png");
 
@@ -15,6 +16,7 @@ $background-image: url("../img/background_image_edited.png");
 
 header {
     
+    height: 400px;
     background-image: $background-image;
 
     .div-header {
@@ -23,6 +25,8 @@ header {
     }
 
     .img-logo {
+        margin-left: 2rem;
+        margin-top: 3rem;
         width: 150px;
         height: 15px;
     }
@@ -35,6 +39,13 @@ header {
 
     li {
         margin: 5px;
+        color: $color-text;
+    }
+
+    .title-header {
+        
     }
 
 }
+
+
