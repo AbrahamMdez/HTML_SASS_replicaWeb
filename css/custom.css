@@ -59,16 +59,45 @@ header .title-header {
   margin-left: 4rem;
 }
 
-.div-results {
+main .div-results {
   padding-top: 1.5rem;
   text-align: center;
   height: 10vh;
   background-color: lightgrey;
 }
 
-.div-results h4 {
+main h4 {
   display: inline-block;
   text-align: center;
   margin-right: 1rem;
+}
+
+main .section-articulos {
+  margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+main article {
+  height: 10rem;
+  width: 10rem;
+}
+
+main .img-section {
+  width: 2rem;
+}
+
+main h3 {
+  display: inline-block;
+}
+
+main p {
+  text-align: center;
+  margin-top: 0.5rem;
 }
 /*# sourceMappingURL=custom.css.map */
