@@ -3,7 +3,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  list-style: none;
 }
 
 header {
@@ -44,9 +43,10 @@ header .listas {
           justify-content: flex-end;
 }
 
-header li {
+header a {
   margin: 5px;
   color: white;
+  text-decoration: none;
 }
 
 header .title-header {
