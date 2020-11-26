@@ -1,0 +1,159 @@
+$font-stack: "Avenir", "Open Sans";
+
+$color-message: rgb(41, 41, 189);
+$color-buttons: rgb(175, 87, 15);
+$color-icons: rgb(172, 12, 12);
+$color-text: white;
+$grey: grey;
+$light-grey: lightgrey;
+$none: none;
+
+$background-image: url("../img/background_image_edited.png");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    
+    height: 50vh;
+    background-image: $background-image;
+    padding-top: 2rem;
+
+    .div-header {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 5rem;
+        border-bottom: 1px solid $grey;
+    }
+
+    .img-logo {
+        width: 150px;
+        height: 15px;
+    }
+
+    .listas {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    li {
+        margin: 5px;
+        color: $color-text;
+        list-style: $none;
+    }
+
+    a {
+        text-decoration: $none;
+        color: $color-text;
+    }
+
+    .title-header{
+        color: $color-text;
+        margin-left: 4rem;
+    }
+
+}
+
+main {
+
+    .div-results {
+        padding-top: 1.5rem;
+        text-align: center;
+        height: 10vh;
+        background-color: $light-grey;
+    }
+
+    h4 {
+        display: inline-block;
+        text-align: center;
+        margin-right: 1rem;
+    }
+
+    .section-articulos {
+        margin-top: 5rem;
+        display: flex;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    article {
+        height: 10rem;
+        width: 10rem;
+    }
+
+    .img-section {
+        width: 2rem;
+    }
+
+    h3 {
+        display: inline-block;
+    }
+
+    p {
+        text-align: center;
+        margin-top: 0.5rem;
+    }
+
+    .div-contenedor-clients {
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5rem;
+
+
+
+            .div-clients {
+
+                margin-top: 5rem;
+                display: flex;
+                flex-direction: column;
+                border: 1px solid $grey;
+                width: 25rem;
+                padding: 20px;
+            }
+        
+
+            .div-clients-caja {
+
+                h3 {
+                    text-align: center;
+                }
+
+                img {
+                    width: 1rem;
+                }
+
+                p {
+                    display: inline-block;
+                }
+
+            }
+
+            .titulo-clients {
+                display: block;
+            }
+
+    }
+}
+   
+
+
+footer {
+    background-color: $light-grey;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
